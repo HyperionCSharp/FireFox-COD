@@ -1,0 +1,340 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Assets1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Assets1.exe;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Assets2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Assets2.exe;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FireFoxLogo1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FireFoxLogo1.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FireFoxLogo2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FireFoxLogo2.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FireFoxLogo3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FireFoxLogo3.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FireFoxLogo4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FireFoxLogo4.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FireFoxLogo5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FireFoxLogo5.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FireFox_1911" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FireFox 1911.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FireFox_ak_47" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FireFox ak-47.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FireFox_ak_47_u" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FireFox ak-47-u.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FireFox_AN_PVS_4_Thermal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FireFox AN-PVS-4 Thermal.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FireFox_aug_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FireFox aug-2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FireFox_Axial_Arms" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FireFox Axial Arms.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FireFox_Axial_Arms_3x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FireFox Axial Arms 3x.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FireFox_Ballistic_Knife" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FireFox Ballistic Knife.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FireFox_bullfrog_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FireFox bullfrog-1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FireFox_CARV2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FireFox CARV2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FireFox_cigma_2_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FireFox cigma-2-1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FireFox_Crossbow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FireFox Crossbow.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FireFox_diamatti" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FireFox diamatti.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FireFox_Diamondback_Reflex" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FireFox Diamondback Reflex.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FireFox_discord_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FireFox discord Icon.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FireFox_dmr_14_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FireFox dmr-14-1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FireFox_ETool" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FireFox ETool.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FireFox_FARA83" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FireFox FARA83.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FireFox_Fastpoint_Reflex" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FireFox Fastpoint Reflex.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FireFox_ffar_1_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FireFox ffar-1-2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FireFox_gallo_sa12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FireFox gallo-sa12.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FireFox_groza_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FireFox groza-0.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FireFox_Hangman_RF" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FireFox Hangman RF.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FireFox_hauer_77" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FireFox hauer-77.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FireFox_Hawksmoor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FireFox Hawksmoor.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FireFox_Iron_Sights" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FireFox Iron Sights.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FireFox_knife_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FireFox knife-0.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FireFox_Kobra_Red_Dot" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FireFox Kobra Red Dot.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FireFox_krig_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FireFox krig-6.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FireFox_ksp_45" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FireFox ksp-45.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FireFox_LC10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FireFox LC10.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FireFox_lw3_tundra" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FireFox lw3-tundra.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FireFox_m16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FireFox m16.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FireFox_m60_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FireFox m60-3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FireFox_m79" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FireFox m79.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FireFox_m82_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FireFox m82-2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FireFox_Machete" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FireFox Machete.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FireFox_mac_10_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FireFox mac-10-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FireFox_magnum" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FireFox magnum.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FireFox_Microflex_LED" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FireFox Microflex LED.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FireFox_Millstop_Reflex" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FireFox Millstop Reflex.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FireFox_mp5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FireFox mp5.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FireFox_Noch_Sova_Thermal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FireFox Noch Sova Thermal.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FireFox_Otero_Mini_Reflex" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FireFox Otero Mini Reflex.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FireFox_pelington_703" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FireFox pelington-703.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FireFox_PPSh_41" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FireFox PPSh-41.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FireFox_qbz_83" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FireFox qbz-83.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FireFox_Quickdot_LED" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FireFox Quickdot LED.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FireFox_Royal___Kross_4X" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FireFox Royal &amp; Kross 4X.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FireFox_rpd" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FireFox rpd.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FireFox_rpg_7_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FireFox rpg-7-1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FireFox_Sillix_Holoscout" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FireFox Sillix Holoscout.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FireFox_sledgehammer" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FireFox sledgehammer.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FireFox_Snappoint" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FireFox Snappoint.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FireFox_stoner_63" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FireFox stoner-63.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FireFox_Streetsweeper" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FireFox Streetsweeper.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FireFox_Susat_Multizoom" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FireFox Susat Multizoom.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FireFox_Swiss_K31" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FireFox Swiss K31.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FireFox_type_63" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FireFox type-63.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FireFox_type_821" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FireFox type-821.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FireFox_Ultrazoom_Custom" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FireFox Ultrazoom Custom.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FireFox_Visiontech_2x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FireFox Visiontech 2x.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FireFox_Vulture_Custom_Zoom" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FireFox Vulture Custom Zoom.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FireFox_wakizashi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FireFox wakizashi.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FireFox_xm4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FireFox xm4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FireFox_ZRG_20mm" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FireFox ZRG 20mm.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>

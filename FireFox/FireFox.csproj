@@ -1,0 +1,302 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{83085AF7-588F-4E27-ABE3-2886EF3473E8}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>FireFox</RootNamespace>
+    <AssemblyName>FireFox</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>firefox nightly .ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>Dependencies\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>false</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetZone>LocalIntranet</TargetZone>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>false</GenerateManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="BlueRain, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\BlueRain.dll</HintPath>
+    </Reference>
+    <Reference Include="CSharpDiscordWebhook">
+      <HintPath>bin\Debug\CSharpDiscordWebhook.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.BonusSkins.v24.1" />
+    <Reference Include="DevExpress.Charts.v24.1.Core, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Data.Desktop.v24.1" />
+    <Reference Include="DevExpress.Drawing.v24.1" />
+    <Reference Include="DevExpress.Data.v24.1" />
+    <Reference Include="DevExpress.DataAccess.v24.1, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.DataAccess.v24.1.UI, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Dialogs.v24.1.Core, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Mvvm.v24.1, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Office.v24.1.Core, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Pdf.v24.1.Core, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Pdf.v24.1.Drawing, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Printing.v24.1.Core" />
+    <Reference Include="DevExpress.RichEdit.v24.1.Core, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.SpellChecker.v24.1.Core, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.DataVisualization.v24.1.Core, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Spreadsheet.v24.1.Core, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Utils.v24.1" />
+    <Reference Include="DevExpress.Utils.v24.1.UI, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraBars.v24.1" />
+    <Reference Include="DevExpress.Sparkline.v24.1.Core" />
+    <Reference Include="DevExpress.XtraCharts.v24.1, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraDialogs.v24.1, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraEditors.v24.1" />
+    <Reference Include="DevExpress.XtraGrid.v24.1, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraLayout.v24.1, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraNavBar.v24.1, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraPdfViewer.v24.1, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraPrinting.v24.1, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraRichEdit.v24.1, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraSpellChecker.v24.1, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Images.v24.1, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraSpreadsheet.v24.1, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraTreeList.v24.1, Version=24.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="Konscious.Security.Cryptography.Argon2, Version=1.2.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Konscious.Security.Cryptography.Argon2.1.2.1\lib\net46\Konscious.Security.Cryptography.Argon2.dll</HintPath>
+    </Reference>
+    <Reference Include="Konscious.Security.Cryptography.Blake2, Version=1.0.9.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Konscious.Security.Cryptography.Blake2.1.0.9\lib\net46\Konscious.Security.Cryptography.Blake2.dll</HintPath>
+    </Reference>
+    <Reference Include="Leaf.xNet, Version=5.2.10.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Leaf.xNet.5.2.10\lib\net45\Leaf.xNet.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.13.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Numerics.Vectors, Version=4.1.4.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Numerics.Vectors.4.5.0\lib\net46\System.Numerics.Vectors.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.Unsafe, Version=4.0.6.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceProcess" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Dependencies\Anti.cs" />
+    <Compile Include="Dependencies\DebugProtect1.cs" />
+    <Compile Include="Dependencies\DebugProtect2.cs" />
+    <Compile Include="Dependencies\DebugProtect3.cs" />
+    <Compile Include="Dependencies\DumpProtect1.cs" />
+    <Compile Include="Dependencies\FireFoxAPI3.cs" />
+    <Compile Include="Dependencies\FireFoxAPITwo.cs" />
+    <Compile Include="Dependencies\FireFoxKeyUtils.cs" />
+    <Compile Include="Dependencies\MainModule.cs" />
+    <Compile Include="Dependencies\NTSTATUS.cs" />
+    <Compile Include="Dependencies\Scanner.cs" />
+    <Compile Include="Dependencies\Weapons.cs" />
+    <Compile Include="Dependencies\WinAPI.cs" />
+    <Compile Include="Dependencies\WinStructs.cs" />
+    <Compile Include="Firefox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Firefox.Designer.cs">
+      <DependentUpon>Firefox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dependencies\FireFoxApi1.cs" />
+    <Compile Include="IntFireFox.cs" />
+    <Compile Include="Dependencies\MainTab.cs" />
+    <Compile Include="Dependencies\Misc.cs" />
+    <Compile Include="NSTheme\NSTheme.cs" />
+    <Compile Include="NSTheme\ThemeBase154.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Firefox.resx">
+      <DependentUpon>Firefox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="App.config" />
+    <None Include="Dependencies\app.manifest" />
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Data Juggler.ico" />
+    <Content Include="firefox nightly .ico" />
+    <None Include="Resources\FireFoxLogo5.gif" />
+    <None Include="Resources\FireFoxLogo4.gif" />
+    <None Include="Resources\FireFoxLogo3.gif" />
+    <None Include="Resources\FireFoxLogo2.gif" />
+    <None Include="Resources\FireFoxLogo1.gif" />
+    <None Include="Resources\Assets1.exe" />
+    <None Include="Resources\Assets2.exe" />
+    <None Include="Resources\FireFox mac-10-1.png" />
+    <None Include="Resources\FireFox PPSh-41.png" />
+    <None Include="Resources\FireFox ZRG 20mm.png" />
+    <None Include="Resources\FireFox Streetsweeper.png" />
+    <None Include="Resources\FireFox Swiss K31.png" />
+    <None Include="Resources\FireFox Machete.png" />
+    <None Include="Resources\FireFox ZRG 20mm.jpg" />
+    <None Include="Resources\FireFox xm4.jpg" />
+    <None Include="Resources\FireFox wakizashi.jpg" />
+    <None Include="Resources\FireFox type-821.jpg" />
+    <None Include="Resources\FireFox type-63.jpg" />
+    <None Include="Resources\FireFox Swiss K31.jpg" />
+    <None Include="Resources\FireFox Streetsweeper.jpg" />
+    <None Include="Resources\FireFox stoner-63.jpg" />
+    <None Include="Resources\FireFox sledgehammer.jpg" />
+    <None Include="Resources\FireFox rpg-7-1.jpg" />
+    <None Include="Resources\FireFox rpd.jpg" />
+    <None Include="Resources\FireFox qbz-83.jpg" />
+    <None Include="Resources\FireFox PPSh-41.jpg" />
+    <None Include="Resources\FireFox pelington-703.jpg" />
+    <None Include="Resources\FireFox mp5.jpg" />
+    <None Include="Resources\FireFox magnum.jpg" />
+    <None Include="Resources\FireFox mac-10-1.jpg" />
+    <None Include="Resources\FireFox m82-2.jpg" />
+    <None Include="Resources\FireFox m79.jpg" />
+    <None Include="Resources\FireFox m60-3.jpg" />
+    <None Include="Resources\FireFox m16.jpg" />
+    <None Include="Resources\FireFox lw3-tundra.jpg" />
+    <None Include="Resources\FireFox LC10.jpg" />
+    <None Include="Resources\FireFox ksp-45.jpg" />
+    <None Include="Resources\FireFox krig-6.jpg" />
+    <None Include="Resources\FireFox knife-0.jpg" />
+    <None Include="Resources\FireFox hauer-77.jpg" />
+    <None Include="Resources\FireFox groza-0.jpg" />
+    <None Include="Resources\FireFox gallo-sa12.jpg" />
+    <None Include="Resources\FireFox ffar-1-2.jpg" />
+    <None Include="Resources\FireFox FARA83.png" />
+    <None Include="Resources\FireFox ETool.jpg" />
+    <None Include="Resources\FireFox dmr-14-1.jpg" />
+    <None Include="Resources\FireFox diamatti.jpg" />
+    <None Include="Resources\FireFox Crossbow.jpg" />
+    <None Include="Resources\FireFox cigma-2-1.jpg" />
+    <None Include="Resources\FireFox CARV2.jpg" />
+    <None Include="Resources\FireFox bullfrog-1.jpg" />
+    <None Include="Resources\FireFox Ballistic Knife.jpg" />
+    <None Include="Resources\FireFox aug-2.jpg" />
+    <None Include="Resources\FireFox ak-47-u.jpg" />
+    <None Include="Resources\FireFox ak-47.jpg" />
+    <None Include="Resources\FireFox 1911.jpg" />
+    <None Include="Resources\FireFox Vulture Custom Zoom.jpg" />
+    <None Include="Resources\FireFox Visiontech 2x.jpg" />
+    <None Include="Resources\FireFox Ultrazoom Custom.jpg" />
+    <None Include="Resources\FireFox Susat Multizoom.jpg" />
+    <None Include="Resources\FireFox Snappoint.jpg" />
+    <None Include="Resources\FireFox Sillix Holoscout.jpg" />
+    <None Include="Resources\FireFox Royal &amp; Kross 4X.jpg" />
+    <None Include="Resources\FireFox Quickdot LED.jpg" />
+    <None Include="Resources\FireFox Otero Mini Reflex.jpg" />
+    <None Include="Resources\FireFox Noch Sova Thermal.jpg" />
+    <None Include="Resources\FireFox Millstop Reflex.jpg" />
+    <None Include="Resources\FireFox Microflex LED.jpg" />
+    <None Include="Resources\FireFox Kobra Red Dot.jpg" />
+    <None Include="Resources\FireFox Iron Sights.jpg" />
+    <None Include="Resources\FireFox Hawksmoor.jpg" />
+    <None Include="Resources\FireFox Hangman RF.jpg" />
+    <None Include="Resources\FireFox Fastpoint Reflex.jpg" />
+    <None Include="Resources\FireFox Diamondback Reflex.jpg" />
+    <None Include="Resources\FireFox Axial Arms.jpg" />
+    <None Include="Resources\FireFox Axial Arms 3x.jpg" />
+    <None Include="Resources\FireFox AN-PVS-4 Thermal.jpg" />
+    <None Include="Resources\FireFox discord Icon.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.7.2 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

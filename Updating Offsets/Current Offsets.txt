@@ -1,0 +1,39 @@
+ma3wF2gAxC
+God Mode = 0xE67
+
+AoEMhoLkac
+PC_ArraySize_Offset = 0xB930
+
+v6iu4wx3Kn
+PC_Name = 0x605C
+
+ajdB1VIFjY
+InfraredVision = 0xE66
+
+ZHLV0N2DlH
+PP_Coords = 0x2D4
+
+lC2ysXHck9
+MainCamo = 0x119D3480
+
+Hk359oDLSc
+XPBaseLevel = 0x112D8E38
+
+NG6wqpcQNz
+XPBaseLevelFake = 0x112D8E40
+
+cNsTMvNeuP
+XPBaseWeapon = 0x112D8E48
+
+S7FHP4gqRA
+JumpHeight = 0x116E5C00
+
+YWbCTgDk9O
+PlayerBase = 288001568
+
+xuscOHxiFM
+PlayerBase2 = 0x112A8E20
+
+
+
+C:\Users\TCM\source\repos\FireFox\Updating Offsets\Updating Offsets\bin\Debug

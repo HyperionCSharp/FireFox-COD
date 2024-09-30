@@ -33,7 +33,7 @@ FireFox is a tool that interfaces with the **BlackOps Cold War** game through th
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/your-repo/firefox-api-tool.git
+    git clone [https://github.com/HyperionCSharp/FireFox-COD.git]
     ```
 
 2. Install necessary dependencies. This project uses several libraries like `FireFoxAPI1One`, `FireFoxAPITwo`, and `FireFoxAPIThree`. Ensure these are correctly referenced in your solution.
